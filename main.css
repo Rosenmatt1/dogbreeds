@@ -1,0 +1,29 @@
+header{
+    display: block;
+    height: 15%;
+    background-color: chartreuse
+
+}
+.p{
+    text-align: center;
+    font-weight: 500;
+}
+main{
+    height: 70%;
+    width: 100%;
+    position:fixed;
+    background-color:grey;
+    margin: 0;
+    padding: 0;
+}
+footer{
+    height:15%;
+    width:100%;
+    background-color: chartreuse;
+    display:block;
+    position: bottom;
+    position:fixed;
+    bottom:0;
+    margin:0;
+    padding:0
+}
