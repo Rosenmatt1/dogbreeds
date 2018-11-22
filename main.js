@@ -73,7 +73,7 @@ var dogs = [
 
       for (let i = 0; i < dogs.length; i++) {
         var card = document.createElement("div")
-        card.classList.add('card', 'col-lg-3')
+        card.classList.add('card', 'col-lg-3', "my-1")
         var selection = dogs[i]
         var item = `
        

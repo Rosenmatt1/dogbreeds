@@ -1,13 +1,18 @@
 header{
     display: block;
     height: 15%;
-    background-color: chartreuse
-
+    background-color: green
 }
+
 .p{
     text-align: center;
     font-weight: 500;
 }
+
+@media (min-width: 576px) {
+  
+}
+
 main{
     height: 70%;
     width: 100%;
@@ -18,10 +23,11 @@ main{
 footer{
     height:15%;
     width:100%;
-    background-color: chartreuse;
-    display:block;
+    background-color: green;
+    display: block;
     position: bottom;
     bottom:0;
     margin:0;
-    padding:0
+    padding:0;
+    text-align:center;
 }
